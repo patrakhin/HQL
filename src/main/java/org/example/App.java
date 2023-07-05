@@ -21,13 +21,28 @@ public class App
         try {
             session.beginTransaction();
 
-            Person person1 = new Person("Test1", 30);
+            /*Person person1 = new Person("Test1", 30);
             Person person2 = new Person("Test2", 40);
             Person person3 = new Person("Test3", 50);
 
             session.save(person1);
             session.save(person2);
-            session.save(person3);
+            session.save(person3);*/
+
+            //update person
+            /*Person person = session.get(Person.class, 2);
+            person.setName("New name");*/
+
+            //delete person
+            /*Person person = session.get(Person.class, 2);
+            session.delete(person);*/
+
+            //get ID person
+            Person person = new Person();
+            session.save(person);
+            session.getTransaction().commit();
+            System.out.println(person.getId());
+
 
             session.getTransaction().commit();
         } finally {
