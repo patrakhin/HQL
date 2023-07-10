@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d34afe9-5c2c-455a-a632-fad1dba3274a" name="Changes" comment="used java 1.8">
+    <list default="true" id="2d34afe9-5c2c-455a-a632-fad1dba3274a" name="Changes" comment="entity update delete and get id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="save_entity" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -68,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1688503664814</updated>
       <workItem from="1688503665926" duration="1110000" />
-      <workItem from="1688584123652" duration="2509000" />
+      <workItem from="1688584123652" duration="4768000" />
+      <workItem from="1689013024227" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="used java 1.8">
       <option name="closed" value="true" />
@@ -78,7 +84,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688504560903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="entity save into db by hibernate">
+      <option name="closed" value="true" />
+      <created>1688589422745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688589422746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="entity update delete and get id">
+      <option name="closed" value="true" />
+      <created>1688591938483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688591938483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +109,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="used java 1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="used java 1.8" />
+    <MESSAGE value="entity save into db by hibernate" />
+    <MESSAGE value="entity update delete and get id" />
+    <option name="LAST_COMMIT_MESSAGE" value="entity update delete and get id" />
   </component>
 </project>
